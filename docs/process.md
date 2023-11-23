@@ -12,7 +12,7 @@ When a pull-request is merged, the version will be bumped according to the commi
     - If the module is dependent on JCORE-Ydin, the SemVer major version should match that of the JCORE-Ydin version, however if it is not possible, follow SemVer versioning.
 - Although modules should follow SemVer, the starting version should always be v3.0.0, as to indicate the work that has been put into them from before JCORE 2.
 - Modules should never be dependant on other modules, except JCORE-Ydin, which modules freely can depend on. (Locking the major version is highly encouraged)
-- To be expanded
+- Do not require Timber in a module, if Timber is needed, require JCORE-Ydin and use the Timber version installed there.
 
 
 # Theme development process
