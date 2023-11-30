@@ -1,2 +1,2 @@
-# jcore-pesa
-JCORE Docs (Pesä), All the docs for the JCORE Theme and Modules
+# jcore-maja
+JCORE Docs (Maja), All the docs for the JCORE Theme and Modules
