@@ -2,7 +2,7 @@
 Normally the modules are either developed against a customer project, and then pushed to their respective repos. They can alternatively be developed in the dedicated development repo [JCORE-Kehitys](https://github.com/jco-digital/jcore-kehitys)
 
 ## Module workflow
-Modules main branch is push protected, and all changes needs to be done through pull-requests. Commits should be done using [Conventional Commit](https://www.conventionalcommits.org) standard.
+Modules main branch should always be push protected, and all changes needs to be done through pull-requests. Commits should be done using [Conventional Commit](https://www.conventionalcommits.org) standard.
 When a pull-request is merged, the version will be bumped according to the commits made. (Refer to the conventional commit page to find out which version number is bumped).
 
 
