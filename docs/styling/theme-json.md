@@ -41,4 +41,4 @@ The theme styles sets the settings onto the G-berg content:
 
 The presets (settings) are applied in the styles-section with a special syntax:
 var:preset|$feature|$slug. So base color in this instance would be var:preset|color|base. For custom color "success" use
-== var:custom|color|success ==.
+==var:custom|color|success==.
