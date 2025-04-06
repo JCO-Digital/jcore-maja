@@ -1,6 +1,6 @@
 site_name: JCORE
 site_url: https://docs.jcore.fi/
-repo_url: https://github.com/JCO-Digital/jcore-maja.git
+repo_url: https://github.com/JCO-Digital/jcore-maja
 edit_uri: tree/main/docs/
 theme:
   name: material
