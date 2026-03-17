@@ -1,6 +1,6 @@
 # Themes
 
-The biggest part of JCORE has always been the theme. There has been 3 major versions so far. They have all had slightly different focus.
+The biggest part of JCORE has always been the theme. There have been 3 major versions so far. They have all had slightly different focus.
 
 ## JCORE 1
 
@@ -16,9 +16,9 @@ This is the current version. It uses a modular design, with composer modules and
 
 ## Branch naming
 
-The "versions" of JCORE has always used branch naming, but the older ones had very random names. During the midpoint of JCORE 2 we moved to an alphabetical naming scheme, and used coctails as the theme.
+The "versions" of JCORE have always used branch naming, but the older ones had very random names. During the midpoint of JCORE 2 we moved to an alphabetical naming scheme, and used cocktails as the theme.
 
-The first JCORE 3 theme used a paralel `G` based name, because of a possible paralell development, but there has been no new JCORE 2 after `grasshopper`.
+The first JCORE 3 theme used a parallel G-based name, because of a possible parallel development, but there has been no new JCORE 2 after `grasshopper`.
 
 ### JCORE 2 branches
 
