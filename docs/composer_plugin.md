@@ -12,23 +12,23 @@ Plugins should be handled by Composer in projects that are complex enough that i
 
 ### Turning on usage of composer plugins in project
 
-change `PLUGIN_INSTALL="remote"` to `PLUGIN_INSTALL="local"` and add `- wp-content/plugins` to `source:`under the `deploy`section.
+change `PLUGIN_INSTALL="remote"` to `PLUGIN_INSTALL="local"` and add `- wp-content/plugins` to `source:` under the `deploy` section.
 
 ### Turning off usage of composer plugins in project
 
-change `PLUGIN_INSTALL="local"` to `PLUTIN_INSTALL="remote"` and remove `- wp-content/plugins` from `source:`under the `deploy`section.
+change `PLUGIN_INSTALL="local"` to `PLUGIN_INSTALL="remote"` and remove `- wp-content/plugins` from `source:` under the `deploy` section.
 
 ### Locking plugin installation in backend
 
-To lock the installation of plugins from the backend you have to ask WP Engine support to set the constant DISALLOW_FILE_MODS to true in wp-config. php
+To lock the installation of plugins from the backend you have to ask WP Engine support to set the constant DISALLOW_FILE_MODS to true in `wp-config.php`.
 
 ### Installing
 
 <https://getcomposer.org/doc/03-cli.md#require>
 
-### Wordpress repo
+### WordPress repo
 
-Free plugins that are found on the wordpress plugins site can be installed by finding the plugin on the site eg. <https://wordpress.org/plugins/wp-google-maps/>. To install the plugin you type:
+Free plugins that are found on the WordPress plugins site can be installed by finding the plugin on the site e.g. <https://wordpress.org/plugins/wp-google-maps/>. To install the plugin you type:
 
 `composer require wpackagist-plugin/wp-google-maps`
 
@@ -42,7 +42,7 @@ There you click Manage Packages and tick the box for the plugin you want to use.
 
 ![Satispress in WP backend.](./assets/satispress.png)
 
-Once you have ticked the box you can find the plugin in the list to the left. The command you use to install the plugin in composer is the line at the top of the box. In this picture it is `jco/wp-migrate-db-pro`
+Once you have ticked the box you can find the plugin in the list to the left. The command you use to install the plugin in Composer is the line at the top of the box. In this picture it is `jco/wp-migrate-db-pro`.
 
 ![Satispress package.](./assets/satispress_package.png)
 
@@ -67,15 +67,15 @@ Package versions can be defined in composer.json.
 
 Check for updates with command: `composer outdated`
 
-Update specific plugin with `composer update “package to update”` eg. `composer update wpackagist-plugin/wp-google-maps`
+Update specific plugin with `composer update “package to update”` e.g. `composer update wpackagist-plugin/wp-google-maps`
 
 Update all packages with command: `composer update`
 
-Note that major updates will not be installed with update eg. 5.10 will not update to 6 but will update to 5.12. To perform major updates you have to change the first number in composer json
+Note that major updates will not be installed with update e.g. 5.10 will not update to 6 but will update to 5.12. To perform major updates you have to change the first number in `composer.json`.
 
 ## Removing
 
 <https://getcomposer.org/doc/03-cli.md#remove>
 
 To remove a plugin run `composer remove vendor/package`
-eg. `composer remove jco/wp-migrate-db-pro`
+e.g. `composer remove jco/wp-migrate-db-pro`

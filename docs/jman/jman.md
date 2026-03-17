@@ -66,7 +66,7 @@ ignoreSites = [
         ]
 ```
 
-The one setting you have to set is `tokenSpinup`, which should be a read only API token for the SpinupWP API. You may find it in BitWarden.
+The one setting you have to set is `tokenSpinup`, which should be a read-only API token for the SpinupWP API. You may find it in BitWarden.
 
 The other settings are mainly for vulnerability reports, which are not the main focus of this document.
 
@@ -90,11 +90,11 @@ jman --help
 
 ### Target
 
-The target is a search string to match what you are operation on. It can be a server or a site or something else depending on the subcommand. The target is used to find the correct item to operate on. Not all commands require a target.
+The target is a search string to match what you are operating on. It can be a server or a site or something else depending on the subcommand. The target is used to find the correct item to operate on. Not all commands require a target.
 
 ## Arguments
 
-Arguments are additional parameters that some commands require. They wary a lot depending on the command.
+Arguments are additional parameters that some commands require. They vary a lot depending on the command.
 
 ---
 
@@ -142,7 +142,7 @@ The `jman plugin` subcommand is one of the more useful ones for everyday use. It
 
 ## 7) Upgrading
 
-The recommended way to upgrade your version of jman is to run `jman update`. This should self update if there is a new version available. If for some reason that does not work, you can manually update by following these steps:
+The recommended way to upgrade your version of jman is to run `jman update`. This should self-update if there is a new version available. If for some reason that does not work, you can manually update by following these steps:
 
 1. Download the newest binary from
    https://github.com/JCO-Digital/jman/releases/latest

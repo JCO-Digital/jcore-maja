@@ -21,7 +21,7 @@ If you want to install it globally you can do that by running:
 
 ## Migrating older projects
 
-From version 3.2 forward JCORE-CLI will not run projects that don't use the jcore.toml settings format. In this situation you can run `jcore migrate` to update the project to the new format. This should be relatively automatic, but might require some manual intervention.
+From version 3.2 forward JCORE® CLI will not run projects that don't use the jcore.toml settings format. In this situation you can run `jcore migrate` to update the project to the new format. This should be relatively automatic, but might require some manual intervention.
 
 When migrating, CLI will attempt to convert the old `config.sh` file to the new `jcore.toml` format. It also requires the new format `docker-compose.yml` in order for the container to read the settings.
 
@@ -38,7 +38,7 @@ The `package.json` file is not overwritten, unless the file checksum matches, wh
     checksum         - Manages file checksums.
     child            - Makes project child theme by copying the local jcore2-child folder.
     clean            - Delete image / container / temp files.
-    clone            - Clones a project from bitbucket, and sets everything up.
+    clone            - Clones a project from Bitbucket, and sets everything up.
     doctor           - Checks the status of the environment.
     init             - Creates a new project in the <target> folder.
     pull             - Syncs content from upstream.
@@ -47,7 +47,7 @@ The `package.json` file is not overwritten, unless the file checksum matches, wh
     shell            - Opens a shell in the container / VM.
     status           - Shows information about running projects.
     start            - Installs composer and npm dependencies, and starts container.
-    stop             - Shutdown container. Removes docker
+    stop             - Shutdown containers. Removes docker containers.
     update           - Updates project. If the target is 'self' this script updates itself.
 
     Possible options:
@@ -84,7 +84,7 @@ Delete image / container / temp files.
 
 #### clone
 
-Clones a project from bitbucket, and sets everything up. This does a `git clone`, but also some basic project file checks and setup.
+Clones a project from Bitbucket, and sets everything up. This does a `git clone`, but also some basic project file checks and setup.
 
 #### doctor
 
@@ -113,7 +113,7 @@ Opens a shell in the container.
 
 #### status
 
-Attach to the logs of all containers
+Shows information about running projects.
 
 #### start
 

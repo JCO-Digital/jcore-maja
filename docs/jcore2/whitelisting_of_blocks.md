@@ -2,9 +2,9 @@
 
 ## Why whitelisting?
 
-To control what content the customer/user can add in the Guternberg-editor, JCOre hides by default all Core Guternberg blocks and only shows the ones whitelisted in 'blocks.php'. 
+To control what content the customer/user can add in the Gutenberg editor, JCORE hides by default all Core Gutenberg blocks and only shows the ones whitelisted in 'blocks.php'.
 
-## A list of the basic blocks and their names whitelisted for the G-berg ediotor
+## A list of the basic blocks and their names whitelisted for the G-berg editor
 
 ```
 $whitelisted_blocks = apply_filters(
@@ -38,7 +38,8 @@ $whitelisted_blocks = apply_filters(
 	);
 ```
 
-## To add more blocks in your child theme, use this filter in your theme functions-file: 
+## To add more blocks in your child theme, use this filter in your theme functions-file:
+
 ```
 add_filter(
 	'jcore_whitelisted_gutenberg_blocks',

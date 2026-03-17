@@ -11,7 +11,7 @@ Block patterns are created using the plugin Pattern Manager which is included in
 a Pattern menu item in the backend where you can create new patterns in Gutenberg. It lets you choose the name and
 category of the pattern you are creating.
 
-When saved the pattern can be found in the `patterns` folder in the root of the enabled theme. It uses the builtin
+When saved the pattern can be found in the `patterns` folder in the root of the enabled theme. It uses the built-in
 functionality of WordPress to save and load block patterns from that folder.
 
 WordPress [documentation](https://developer.wordpress.org/themes/advanced-topics/block-patterns/#using-the-patterns-directory-to-register-patterns)
@@ -24,11 +24,11 @@ Slug. It automatically adds the loaded text domain.
 /**
  * Title: Blog Test
  * Slug: jcore/blog-test
- * Description: 
+ * Description:
  * Categories: hero
- * Keywords: 
+ * Keywords:
  * Viewport Width: 1280
- * Block Types: 
+ * Block Types:
  * Post Types: post
  * Inserter: true
  */

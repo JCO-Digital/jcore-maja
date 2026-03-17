@@ -10,29 +10,29 @@ Example projectname.vc.bojaco.com. Each server has wildcard domain name that wor
 
 Change admin email to support@jco.fi. Use _projectname_ as admin username. Store username and password to Bitwarden right away.
 
-On the database page **save database prefix** to your notes - you will need it later. You will also need siteuser and server so it is good to include them in you notes at this point aswell.
+On the database page **save database prefix** to your notes - you will need it later. You will also need siteuser and server so it is good to include them in your notes at this point as well.
 
-When install has finished building go to SFTP & SSH page and activate **GitHub SSH key** and your own key(s) from the list. You can also check known other project team members keys at this point to make things smoother.
+When installation has finished building go to SFTP & SSH page and activate **GitHub SSH key** and your own key(s) from the list. You can also check known other project team members keys at this point to make things smoother.
 
 ## 2. Create Github repository
 
-If possible use _projectname_ as reporsitory name. Make private repository and choose not to generate .gitignore (use template none).
+If possible use _projectname_ as repository name. Make private repository and choose not to generate .gitignore (use template none).
 
 ## 3. Create JCORE project using JCORE® CLI
 
-Login to terminal and goto your projects folder.
+Login to terminal and go to your projects folder.
 
 run `jcore init <projectname>`
 
-Go to newly created project dir: `cd <projectname>`
+Go to newly created project directory: `cd <projectname>`
 
 run `make install`
 
-If you get error related to vendor/composer, check vendor dir permissions: `chown <username>:<username> vendor`
+If you get error related to vendor/composer, check vendor directory permissions: `chown <username>:<username> vendor`
 
 ## 4. Setup CI connection parameters
 
-Now lets hope you made notes at step one.
+Now let's hope you made notes at step one.
 
 jcore.toml
 
@@ -99,7 +99,7 @@ Commit your changes and push. You should now see build process results in the sl
 
 ### Login to WP admin panel at SpinupWP
 
-At this point you should have login credidentials stored to Bitwarden. If not, do it now. Make sure the dev URL and the localhost URL are set up correctly in Bitwarden record. Finally move Bitwarden record to JCO organzation. You can use **WP Admin Medium** collection if other security level has not been agreed.
+At this point you should have login credentials stored to Bitwarden. If not, do it now. Make sure the dev URL and the localhost URL are set up correctly in Bitwarden record. Finally move Bitwarden record to JCO organization. You can use **WP Admin Medium** collection if other security level has not been agreed.
 
 ### Go through initial WP setup
 
@@ -114,7 +114,7 @@ At this point you should have login credidentials stored to Bitwarden. If not, d
 
 If on Windows, make sure you have Docker running. Go to your local project directory and run `jcore start`
 
-Update you local WordPress setup to match server by running `jcore pull`
+Update your local WordPress setup to match server by running `jcore pull`
 
 After update is finished run `make watch`
 

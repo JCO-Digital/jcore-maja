@@ -1,11 +1,11 @@
 # Theme.json in Ilme
 
-Ilme uses theme.json for [global settings and styles](https://developer.wordpress.org/themes/global-settings-and-styles/) .
+Ilme uses theme.json for [global settings and styles](https://developer.wordpress.org/themes/global-settings-and-styles/).
 
 ## Theme.json config
 
-The file is structured into sections, Ilme uses the **settings** and **styles**-sections. Pattern styling through theme.json is optional. Ilme as now does not use customTemplates nor templateParts.
-Observe that theme.json uses versioning, and is updated with newer Wordpress releases. From WP 6.6 on-wards, the theme.json uses v3. When updating Wordpress, check the [migration documentation](https://developer.wordpress.org/block-editor/reference-guides/theme-json-reference/theme-json-migrations/)
+The file is structured into sections, Ilme uses the **settings** and **styles**-sections. Pattern styling through theme.json is optional. Ilme as of now does not use customTemplates nor templateParts.
+Observe that theme.json uses versioning, and is updated with newer WordPress releases. From WP 6.6 onwards, the theme.json uses v3. When updating WordPress, check the [migration documentation](https://developer.wordpress.org/block-editor/reference-guides/theme-json-reference/theme-json-migrations/)
 
 ```
 {
@@ -21,7 +21,7 @@ Observe that theme.json uses versioning, and is updated with newer Wordpress rel
 
 ## Theme settings
 
-The settings that were included in Jcore2 varaibles can now be set in theme.json:
+The settings that were included in Jcore2 variables can now be set in theme.json:
 
 - Theme colors (as many as needed)
 - Responsive breakpoints and spacing
