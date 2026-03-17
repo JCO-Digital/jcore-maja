@@ -10,28 +10,4 @@ Since version 3 all parts of JCORE are opensource and publicly available.
 
 The purpose of JCORE® is to enhance the developer experience and the quality of work.
 
-## Cocktail branch names
-
-- _aviation_
-- _bellini_
-- _cosmopolitan_
-- _daiquiri_
-- _elduelo_
-- _fluffycritter_
-- _grasshopper_
-- _gintonic_
-- **hurricane**
-- irishcoffee
-- johncollins
-- kirroyale
-- longislandicedtea
-- margarita
-- negroni
-- oldfashioned
-- pinacolada
-- ramosfizz
-- sexonthebeach
-- tequilasunrise
-- vesper
-- whitelady
-- zombie
+The documentation is written specifically for the workflow used by J&Co Digital as internal documentation, so everything might not be applicable for other workflows.
